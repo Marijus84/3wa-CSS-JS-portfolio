@@ -1,0 +1,60 @@
+
+
+body {
+  background: url("fond.png");
+  font-family: 'Bree Serif', serif;
+}
+
+header {
+  padding: 50px 0px;
+}
+
+header img {
+  margin: 10px;
+  transition: 0.4s ease;
+}
+
+
+
+header li {
+  text-align: center;
+  transform: translateY(0);
+  transition: 1s ease;
+}
+
+header li:hover {
+  transform: translateY(10px) scale(1.5);
+}
+
+header img:hover {
+  transform: scale(1.5);
+}
+
+header a {
+padding: 50px;
+color: red;
+}
+
+.container {
+  width: 1200px;
+}
+
+h2 {
+  display: inline;
+}
+
+h1 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.photo {
+  background: url("../img/bg_header.jpg");
+  text-align: center;
+  color: white;
+}
+
+.btn-danger {
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
