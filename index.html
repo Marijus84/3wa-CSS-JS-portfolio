@@ -9,38 +9,46 @@
         <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
       </head>
       <body>
         <div class="container">
           <header>
-
-
               <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                   <img src="img/logo.svg" alt="logo" width="40px" height="40px"> <h2 class="d-inline">John Doe</h2>
                 </div>
-              <div class="col-sm-6">
+              <div class="col-md-6">
                 <ul class = "list-inline" >
                 <li><i class="fa fa-home" aria-hidden="true"></i><br><a href="#">Accueil</a></li>
                 <li><i class="fa fa-book " aria-hidden="true"></i><br><a href="#">Achievments</a></li>
                 <li><i class="fa fa-envelope" aria-hidden="true"></i><br><a href="#">Contact</a></li>
-              </ul>
+                </ul>
               </div>
-
             </div>
+          </div>
             <div class="row">
               <div class="photo">
+                <div class="container">
                 <h1>-Bonjour et birendjkg sur mon portfolio</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p><button type="button" class="btn btn-danger">Who am I</button></p>
               </div>
             </div>
+          </div>
+          <div class="container">
             </header>
+          <main>
             <div class="row">
               <div class="page-header text-center">
                 <h3>-Mes competences-</h3>
-
-
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-offset-4 col-xs-4">
+                <div class="center">
+                  <canvas id="myChart">  </canvas>
+                </div>
               </div>
             </div>
             <div class="row">
@@ -50,21 +58,35 @@
             </div>
             <div class="row text-center">
               <div class="col-md-4">
-                <img src="" alt="">
+                <div class="animation">
+                <div class="circle">
+                  <i class="fa fa-coffee fa-2x" aria-hidden="true"></i>
+                </div>
+              </div>
                 <div class="page-header">
                   <h4>-On discute-</h4>
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
               </div>
               <div class="col-md-4">
-                <img src="" alt="">
+                <div class="animation">
+                <div class="circle">
+
+                  <i class="fa fa-flask fa-2x" aria-hidden="true"></i>
+                </div>
+              </div>
                 <div class="page-header">
                   <h4>-On tente-</h4>
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
               </div>
               <div class="col-md-4">
-                <img src="" alt="">
+                <div class="animation">
+                <div class="circle">
+
+                  <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                </div>
+                </div>
                 <div class="page-header">
                   <h4>-On code-</h4>
                 </div>
@@ -77,43 +99,46 @@
               </div>
             </div>
             <div class="row">
-              <h4>Orange Juice:</h4>
+              <div class="col-md-12">
+                <h4>Orange Juice:</h4>
+              </div>
             </div>
             <div class="row">
               <div class="col-md-6">
-
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+                <h5>En savoir plus <i class="fa fa-plus-circle" aria-hidden="true"></i> </h5>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 pic">
                 <img src="img/real/1.png" alt="Orange" width="100%">
               </div>
             </div>
             <div class="row">
-              <h4>Rime Past:</h4>
+              <div class="col-md-12">
+                <h4>Rime Past:</h4>
+              </div>
             </div>
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 pic">
                 <img src="img/real/2.png" alt="Time" width="100%">
               </div>
               <div class="col-md-6">
-
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+                <h5>En savoir plus <i class="fa fa-plus-circle" aria-hidden="true"></i> </h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Aqua plant:</h4>
               </div>
 
             </div>
             <div class="row">
-              <h4>Aqua plant:</h4>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-
+              <div class="col-md-6 pic">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+                <h5>En savoir plus <i class="fa fa-plus-circle" aria-hidden="true"></i> </h5>
               </div>
               <div class="col-md-6">
                 <img src="img/real/3.png" alt="Aqua plant" width="100%">
@@ -125,19 +150,34 @@
               </div>
             </div>
             <div class="row">
+              <div class="col-xs-12">
+
+
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
+          </div>
             <div class="row">
               <div class="col-md-6">
-                <input type="text" class="form-control form-rounded" placeholder="Text input" >
+                <div class="mar">
+                <input type="text" class="form-control input name" placeholder="Name"  >
+              </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mar">
+                <input type="text" class="form-control input email" placeholder="Email" >
+              </div>
               </div>
             </div>
-
-        </div>
-      <main>
-
+            <div class="row">
+              <div class="col-md-12">
+                <div class="mar">
+                  <textarea class="form-control input message" rows="2" placeholder="Message"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
       </main>
-    </div>
+      <script src = mano.js>
+      </script>
     </body>
-
-    </html>
+  </html>

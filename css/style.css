@@ -15,7 +15,6 @@ header img {
 }
 
 
-
 header li {
   text-align: center;
   transform: translateY(0);
@@ -35,8 +34,11 @@ padding: 50px;
 color: red;
 }
 
+.photo img {max-width: 100%}
+
 .container {
-  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto
 }
 
 h2 {
@@ -48,6 +50,17 @@ h1 {
   padding-bottom: 30px;
 }
 
+h3, h4, h5 {
+  color: #F6164E;
+}
+
+h5 {
+  padding-left: 2em;
+}
+
+.pic img{
+max-width: 100%}
+
 .photo {
   background: url("../img/bg_header.jpg");
   text-align: center;
@@ -57,4 +70,103 @@ h1 {
 .btn-danger {
   margin-bottom: 100px;
   margin-top: 30px;
+}
+
+.mar {
+  margin-top: 15px;
+}
+
+.circle {
+  margin: 0 auto;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: grey;
+  background-color: lightgrey;
+}
+
+.fa-coffee{
+  padding-top: 20px;
+  color: grey;
+}
+
+.fa-flask{
+  padding-top: 20px;
+  color: grey;
+}
+
+.fa-code{
+  padding-top: 20px;
+  color: grey;
+}
+
+.form-control {
+  border-radius: 28px;
+  resize: none;  </div>
+}
+
+
+  .input {
+
+
+            }
+
+.name {
+  background-image: url(../img/bg_form_name.svg);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: 10px;
+  /*width: calc(88% - 60px);*/
+  /* float: left; */
+  padding: 20px 20px 20px 57px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.email {
+  background-image: url(../img/bg_form_mail.svg);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: 10px;
+/*  width: calc(88% - 60px);*/
+  /* float: left; */
+  padding: 20px 20px 20px 57px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.message {
+  background-image: url(../img/bg_form_message.svg);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: 10px;
+  /*width: calc(88% - 60px);*/
+  /* float: left; */
+  padding: 20px 20px 20px 57px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.animation:hover {
+            animation: bounce 0.5s infinite alternate;
+        }
+
+    @keyframes bounce{
+   from {
+  -webkit-transform: translateY(0);
+  -webkit-transform: translateY(0);
+}
+to
+  {
+-webkit-transform: translateY(20px);
+transform: translateY(20px);
+}
 }
